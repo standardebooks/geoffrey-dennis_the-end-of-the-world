@@ -1,2 +1,53 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+caption{
+	font-variant: small-caps;
+}
+
+table{
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
+}
+
+table tr td{
+	padding: 0 .5em;
+	vertical-align: top;
+}
+
+#chapter-2-1 table:nth-of-type(2){
+	padding-left: 3.5em;
+}
+
+#chapter-2-1 table td:last-child{
+	text-align: right;
+	white-space: nowrap;
+}
+
+#chapter-2-1 table:first-of-type tfoot td:last-child,
+#chapter-2-1 table:nth-of-type(4) tbody tr:nth-of-type(3) td:last-child{
+	border-top: 1px solid;
+}
+
+#chapter-2-1 table:nth-of-type(2) tfoot td:last-child{
+	font-style: italic;
+}
+
+#chapter-2-1 table:nth-of-type(2) tfoot td:last-child,
+#chapter-2-1 table:nth-of-type(n+4) tfoot td:last-child{
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-style: italic;
+}
+
+#chapter-2-3 table th{
+	font-style: italic;
+	font-weight: normal;
+	padding: 0 1em;
+	text-align: center;
+}
+
+#chapter-2-3 table td{
+	text-align: center;
+}
