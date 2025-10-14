@@ -29,51 +29,52 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The End of the World</dc:title>
 		<meta property="file-as" refines="#title">End of the World, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Philosophy</dc:subject>
+		<dc:subject id="subject-2">End of the world</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85100849</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85043038</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-1" property="belongs-to-collection">Hawthornden Prize Winners</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">12</meta>
+		<dc:description id="description">A philosophical reflection on how the end of the world would unfold based on hypothetical variables and relevant knowledge and historical context.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In &lt;i&gt;The End of the World&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/geoffrey-dennis"&gt;Geoffrey Dennis&lt;/a&gt; creates a discourse centered around the fleeting existence of the human race and how the creation and spreading of profecies and predictions can provide confusion, awe, and an odd sense of reassurance towards their believers. The need to define the unknown, control things that are uncontrollable and the fear of uncertainty have helped in the development of knowledge, science and culture, but can also serve as a means to guide the population for the benefit of certain social and political interests. The exploration of two concepts that permeate in commonly-held beliefs throughout human history, namely the “disaster of avoided disaster” and the impending doom that draws closer with each passing moment, yet remains forever distant, contextualize the evolution of logical reasoning, the understanding of astronomical phenomena and the influence of society, religion and context one is familiar with to create a personal and a collective undestanding of the world.&lt;/p&gt;
+			&lt;p&gt;Dennis delivers a carefully created imaginative take on the tragic end of man and the planet he calls home, using a book structure that emphasizes the four main aspects of such an event: How would the world come to an end? When could such a situation arise? Will humanity meet its demise before the Earth reaches its own, and what would be the aftermath of such an inconceivable tragedy? These questions may never have a concrete answer, but Dennis offers conclusions based on theories known at the time, information obtained from religion and historical references ranging from the times of ancient Rome to the then-present day.&lt;/p&gt;
+			&lt;p&gt;Published in 1930, the book presents a fascinating entry into the “existential risk” genre, as it’s a philosophical critique that plays with the thin line between fiction and factual analysis, making use of a compelling writing style, a focus on the examination and review of new and existing forecasts and ideas, and the occasional touch of humor that adds nuance to the horrifying nature inherent to the subject matter. Due to the previously mentioned attributes, &lt;i&gt;The End of the World&lt;/i&gt; was awarded the &lt;a href="https://standardebooks.org/collections/hawthornden-prize-winners"&gt;Hawthornden Prize&lt;/a&gt; later the same year, and remains a valuable glimpse into the potential final fate of the earth and humanity with that isn’t concerned with the rapid development of technology nor the eventual usage and reliance in computers and machinery.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210314</dc:source>
 		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/geoffrey-dennis_the-end-of-the-world</meta>
 		<dc:creator id="author">Geoffrey Dennis</dc:creator>
 		<meta property="file-as" refines="#author">Dennis, Geoffrey</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Geoffrey Pomeroy Dennis</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no2019136605</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Johan Christian Dahl</dc:contributor>
+		<meta property="file-as" refines="#artist">Dahl, Johan Christian</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Johan Christian Claussen Dahl</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Johan_Christian_Dahl</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81047942</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">John Routh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Routh, John</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Sergio Tellez</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Tellez, Sergio</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
