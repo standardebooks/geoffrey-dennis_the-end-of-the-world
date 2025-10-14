@@ -66,6 +66,7 @@ table tr td{
 }
 
 #chapter-2-1 table:first-of-type tfoot td:last-child,
+#chapter-2-1 table:nth-of-type(3) tfoot td:last-child,
 #chapter-2-1 table:nth-of-type(4) tbody tr:nth-of-type(3) td:last-child{
 	border-top: 1px solid;
 }
