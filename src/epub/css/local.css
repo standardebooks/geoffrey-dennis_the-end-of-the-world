@@ -1,10 +1,50 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+blockquote[xml|lang],
+#chapter-2-3 blockquote:nth-of-type(8),
+#chapter-2-3 blockquote:nth-of-type(13),
+#chapter-2-3 blockquote:nth-of-type(16){
+	font-style: italic;
+}
+
+#chapter-2-2 blockquote b{
+	text-transform: uppercase;
+}
+
+#chapter-2-3 blockquote:nth-of-type(17){
+	font-variant: small-caps;
+}
+
+#chapter-2-3 blockquote:nth-of-type(-n+17) p{
+	text-align: center;
+}
 
 caption{
 	font-variant: small-caps;
 }
 
+/* Table CSS */
 table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
@@ -51,3 +91,4 @@ table tr td{
 #chapter-2-3 table td{
 	text-align: center;
 }
+/* End Table CSS */
