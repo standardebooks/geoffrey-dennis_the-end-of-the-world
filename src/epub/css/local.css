@@ -28,10 +28,6 @@ blockquote[xml|lang],
 	font-style: italic;
 }
 
-#chapter-2-2 blockquote b{
-	text-transform: uppercase;
-}
-
 #chapter-2-3 blockquote:nth-of-type(17){
 	font-variant: small-caps;
 }
@@ -77,7 +73,6 @@ table tr td{
 
 #chapter-2-1 table:nth-of-type(2) tfoot td:last-child,
 #chapter-2-1 table:nth-of-type(n+4) tfoot td:last-child{
-	border-bottom: 1px solid;
 	border-top: 1px solid;
 	font-style: italic;
 }
