@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/geoffrey-dennis/the-end-of-the-world</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-01T16:00:34Z</dc:date>
+		<meta property="dcterms:modified">2026-01-01T16:00:34Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,15 +41,15 @@
 		<meta property="group-position" refines="#collection-1">12</meta>
 		<dc:description id="description">A philosophical reflection on how the end of the world would unfold based on hypothetical variables and relevant knowledge and historical context.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In &lt;i&gt;The End of the World&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/geoffrey-dennis"&gt;Geoffrey Dennis&lt;/a&gt; creates a discourse centered around the fleeting existence of the human race and how the creation and spreading of profecies and predictions can provide confusion, awe, and an odd sense of reassurance towards their believers. The need to define the unknown, control things that are uncontrollable and the fear of uncertainty have helped in the development of knowledge, science and culture, but can also serve as a means to guide the population for the benefit of certain social and political interests. The exploration of two concepts that permeate in commonly-held beliefs throughout human history, namely the “disaster of avoided disaster” and the impending doom that draws closer with each passing moment, yet remains forever distant, contextualize the evolution of logical reasoning, the understanding of astronomical phenomena and the influence of society, religion and context one is familiar with to create a personal and a collective undestanding of the world.&lt;/p&gt;
-			&lt;p&gt;Dennis delivers a carefully created imaginative take on the tragic end of man and the planet he calls home, using a book structure that emphasizes the four main aspects of such an event: How would the world come to an end? When could such a situation arise? Will humanity meet its demise before the Earth reaches its own, and what would be the aftermath of such an inconceivable tragedy? These questions may never have a concrete answer, but Dennis offers conclusions based on theories known at the time, information obtained from religion and historical references ranging from the times of ancient Rome to the then-present day.&lt;/p&gt;
-			&lt;p&gt;Published in 1930, the book presents a fascinating entry into the “existential risk” genre, as it’s a philosophical critique that plays with the thin line between fiction and factual analysis, making use of a compelling writing style, a focus on the examination and review of new and existing forecasts and ideas, and the occasional touch of humor that adds nuance to the horrifying nature inherent to the subject matter. Due to the previously mentioned attributes, &lt;i&gt;The End of the World&lt;/i&gt; was awarded the &lt;a href="https://standardebooks.org/collections/hawthornden-prize-winners"&gt;Hawthornden Prize&lt;/a&gt; later the same year, and remains a valuable glimpse into the potential final fate of the earth and humanity with that isn’t concerned with the rapid development of technology nor the eventual usage and reliance in computers and machinery.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;The End of the World&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/geoffrey-dennis"&gt;Geoffrey Dennis&lt;/a&gt; writes about the fleeting existence of the human race and how the creation and spread of prophecies and predictions can create confusion, inspire awe, and instill an odd sense of reassurance in their believers. The need to define the unknown and to control things that are uncontrollable, and the fear of uncertainty, have developed knowledge, science, and culture; but they can also serve as a means to guide the population towards the benefit of certain social and political interests.&lt;/p&gt;
+			&lt;p&gt;Dennis delivers a carefully created and imaginative take on the tragic end of man and the planet he calls home, using a structure that emphasizes the four main aspects of such an event: How would the world come to an end? When could such a situation arise? Will humanity meet its demise before the Earth reaches its own? Would be the aftermath of such an inconceivable tragedy? These questions don’t have concrete answers, but Dennis offers conclusions based on theories known at the time, religious interpretation, and historical references ranging from ancient Rome to the then-present day.&lt;/p&gt;
+			&lt;p&gt;Published in 1930, the book is a fascinating entry into the “existential risk” genre, as it’s a philosophical critique that plays with the thin line between fiction and factual analysis. It employs a compelling writing style, focuses on the examination and review of forecasts and ideas, and includes the occasional touch of humor. It remains a valuable glimpse into the potential fates of Earth and humanity independent of technological development.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210314</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.221743</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">39196</meta>
+		<meta property="se:reading-ease.flesch">58.21</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/geoffrey-dennis_the-end-of-the-world</meta>
 		<dc:creator id="author">Geoffrey Dennis</dc:creator>
 		<meta property="file-as" refines="#author">Dennis, Geoffrey</meta>
@@ -81,6 +81,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
