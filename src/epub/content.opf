@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/geoffrey-dennis/the-end-of-the-world</dc:identifier>
 		<dc:date>2026-01-01T16:00:34Z</dc:date>
@@ -40,12 +40,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Hawthornden Prize Winners</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">12</meta>
-		<dc:description id="description">A philosophical reflection on how the end of the world would unfold based on hypothetical variables and relevant knowledge and historical context.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A philosophical reflection on how the end of the world would unfold based on hypothetical variables and relevant knowledge and historical context.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;In &lt;i&gt;The End of the World&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/geoffrey-dennis"&gt;Geoffrey Dennis&lt;/a&gt; writes about the fleeting existence of the human race and how the creation and spread of prophecies and predictions can create confusion, inspire awe, and instill an odd sense of reassurance in their believers. The need to define the unknown and to control things that are uncontrollable, and the fear of uncertainty, have developed knowledge, science, and culture; but they can also serve as a means to guide the population towards the benefit of certain social and political interests.&lt;/p&gt;
 			&lt;p&gt;Dennis delivers a carefully created and imaginative take on the tragic end of man and the planet he calls home, using a structure that emphasizes the four main aspects of such an event: How would the world come to an end? When could such a situation arise? Will humanity meet its demise before the Earth reaches its own? Would be the aftermath of such an inconceivable tragedy? These questions don’t have concrete answers, but Dennis offers conclusions based on theories known at the time, religious interpretation, and historical references ranging from ancient Rome to the then-present day.&lt;/p&gt;
 			&lt;p&gt;Published in 1930, the book is a fascinating entry into the “existential risk” genre, as it’s a philosophical critique that plays with the thin line between fiction and factual analysis. It employs a compelling writing style, focuses on the examination and review of forecasts and ideas, and includes the occasional touch of humor. It remains a valuable glimpse into the potential fates of Earth and humanity independent of technological development.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210314</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.221743</dc:source>
