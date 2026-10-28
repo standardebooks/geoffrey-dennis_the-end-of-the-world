@@ -57,6 +57,7 @@
 		<dc:creator id="author">Geoffrey Dennis</dc:creator>
 		<meta property="file-as" refines="#author">Dennis, Geoffrey</meta>
 		<meta property="schema:alternateName" refines="#author">Geoffrey Pomeroy Dennis</meta>
+		<link href="https://en.wikipedia.org/wiki/Geoffrey_Dennis" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/no2019136605.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
